@@ -19,9 +19,9 @@
             <div class="flex gap-10">
                 <section class="flex items-center gap-2">
                     <img class="h-8" src="./assets/checkbox.png" alt="">
-                    <h2>23</h2>
+                    <h2 id="point-section">23</h2>
                 </section>
-                <img class="w-16" src="./assets/theme-btn.png" alt="">
+                <img id="theme-btn" class="w-16" src="./assets/theme-btn.png" alt="">
             </div>
         </nav>
     </header>
@@ -32,7 +32,7 @@
                     <img class="w-7 h-7" src="./assets/checkbox.png" alt="">
                     <div class="flex flex-col justify-start">
                         <p class="text-sm">Task Assigned</p>
-                        <h2 class="text-3xl font-bold">5</h2>
+                        <h2 id="task-number" class="text-3xl font-bold">6</h2>
                     </div>
                 </div>
                 <div class="flex gap-7 bg-linear-to-r from-[#3752FD] to-[#9BA8F8] col-span-3 rounded-2xl p-7">
@@ -41,13 +41,13 @@
                 </div>
                 <div class="flex items-center gap-5 bg-slate-400 rounded-xl p-7">
                     <img class="w-7 h-7" src="./assets/calender.png" alt="">
-                    <p class="text-xl">Wed,<br> <span class="font-bold">Jul 28 2025</span></p>
+                    <p class="text-xl"><span id="day-name">Wed</span>,<br> <span id="today-date" class="font-bold">Jul 28 2025</span></p>
 
                 </div>
             </div>
 
-            <div class="grid grid-cols-3 grid-rows-3 gap-4">
-                <div class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
+            <div id="task-container" class="grid grid-cols-3 gap-4">
+                <div id="task1" class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
                     <h3 class="text-sm px-4 py-2 bg-slate-50 w-24 text-center">ShopEase</h3>
                     <h2 class="text-2xl">Fix Mobile Button Issue </h2>
                     <p class="p-4 text-xl whitespace-normal bg-white">Debug using Chrome DevTools, check for overlapping
@@ -58,11 +58,11 @@
                             <p class="text-sm">Deadline</p>
                             <p class="text-sm">21 March 2025</p>
                         </div>
-                        <button id="complete-btn"
+                        <button id="task1-btn"
                             class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
-                <div class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
+                <div id="task2" class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
                     <h3 class="text-sm px-4 py-2 bg-slate-50 w-24 text-center">ShopEase</h3>
                     <h2 class="text-2xl">Fix Mobile Button Issue </h2>
                     <p class="p-4 text-xl whitespace-normal bg-white">Debug using Chrome DevTools, check for overlapping
@@ -73,11 +73,11 @@
                             <p class="text-sm">Deadline</p>
                             <p class="text-sm">21 March 2025</p>
                         </div>
-                        <button id="complete-btn"
+                        <button id="task2-btn"
                             class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
-                <div class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
+                <div id="task3" class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
                     <h3 class="text-sm px-4 py-2 bg-slate-50 w-24 text-center">ShopEase</h3>
                     <h2 class="text-2xl">Fix Mobile Button Issue </h2>
                     <p class="p-4 text-xl whitespace-normal bg-white">Debug using Chrome DevTools, check for overlapping
@@ -88,11 +88,11 @@
                             <p class="text-sm">Deadline</p>
                             <p class="text-sm">21 March 2025</p>
                         </div>
-                        <button id="complete-btn"
+                        <button id="task3-btn"
                             class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
-                <div class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
+                <div id="task4" class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
                     <h3 class="text-sm px-4 py-2 bg-slate-50 w-24 text-center">ShopEase</h3>
                     <h2 class="text-2xl">Fix Mobile Button Issue </h2>
                     <p class="p-4 text-xl whitespace-normal bg-white">Debug using Chrome DevTools, check for overlapping
@@ -103,11 +103,11 @@
                             <p class="text-sm">Deadline</p>
                             <p class="text-sm">21 March 2025</p>
                         </div>
-                        <button id="complete-btn"
+                        <button id="task4-btn"
                             class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
-                <div class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
+                <div id="task5" class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
                     <h3 class="text-sm px-4 py-2 bg-slate-50 w-24 text-center">ShopEase</h3>
                     <h2 class="text-2xl">Fix Mobile Button Issue </h2>
                     <p class="p-4 text-xl whitespace-normal bg-white">Debug using Chrome DevTools, check for overlapping
@@ -118,11 +118,11 @@
                             <p class="text-sm">Deadline</p>
                             <p class="text-sm">21 March 2025</p>
                         </div>
-                        <button id="complete-btn"
+                        <button id="task5-btn"
                             class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
-                <div class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
+                <div id="task6" class="bg-[#F4F7FF] p-6 rounded-2xl  flex flex-col gap-4">
                     <h3 class="text-sm px-4 py-2 bg-slate-50 w-24 text-center">ShopEase</h3>
                     <h2 class="text-2xl">Fix Mobile Button Issue </h2>
                     <p class="p-4 text-xl whitespace-normal bg-white">Debug using Chrome DevTools, check for overlapping
@@ -133,7 +133,7 @@
                             <p class="text-sm">Deadline</p>
                             <p class="text-sm">21 March 2025</p>
                         </div>
-                        <button id="complete-btn"
+                        <button id="task6-btn"
                             class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
@@ -147,12 +147,18 @@
             </div>
             <button id="clear-history-btn" class="btn bg-blue-700 border-blue-700 text-white rounded-lg">Clear History</button>
             <hr class="border-dashed border-2 border-black w-full opacity-50 mt-4">
-            <div>
+            <div id="activity-box">
                 <p class="p-3 bg-[#F4F7FF]">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
                 <p class="p-3 bg-[#F4F7FF]">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
             </div>
         </section>
     </main>
+    <script src="./JS/clearHistory.js"></script>
+    <script src="./JS/themeChanger.js"></script>
+    <script src="./JS/dateGenarator.js"></script>
+    <script src="./JS/taskCount.js"></script>
+    <script>
+    </script>
 </body>
 
 </html>
