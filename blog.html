@@ -9,6 +9,15 @@
 
 </head>
 <body>
+  <nav class="px-12 pt-5">
+    <div class="navbar bg-base-100 shadow-sm rounded-xl flex justify-between px-5">
+        <div class="flex items-center gap-2">
+          <img src="assets/logo.png" alt="">
+          <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
+        </div>
+        <button id="back-btn" class="btn bg-blue-600 text-white rounded-xl">Back to Desk</button>
+      </div>
+</nav>
     <div class="collapse bg-base-100 border border-base-300">
         <input type="radio" name="my-accordion-1" checked="checked" />
         <div class="collapse-title font-semibold">What are the different ways to select an element in the DOM?</div>
@@ -65,6 +74,11 @@
             Adding an element: Use appendChild() or insertBefore() to add an element to the DOM.
             Removing an element: Use removeChild() or remove() to remove an element.</div>
       </div>
+      <script>
+        document.getElementById('back-btn').addEventListener('click',function(){
+            window.location.href = "./index.html"
+        })
+      </script>
 </body>
 </html>
 

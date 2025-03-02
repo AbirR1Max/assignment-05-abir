@@ -24,7 +24,7 @@ document.getElementById('task1-btn')
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
-            alert("updated");
+            alert("Board Successfully updated");
         }
         else {
             alert("Congratulatoin You Have Completed All Tasks")
@@ -52,7 +52,7 @@ document.getElementById('task2-btn')
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
-            alert("updated");
+            alert("Board Successfully updated");
         }
         else {
             alert("Congratulatoin You Have Completed All Tasks")
@@ -82,7 +82,7 @@ document.getElementById('task3-btn')
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
-            alert("updated");
+            alert("Board Successfully updated");
         }
         else {
             alert("Congratulatoin You Have Completed All Tasks")
@@ -111,7 +111,7 @@ document.getElementById('task4-btn')
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
-            alert("updated");
+            alert("Board Successfully updated");
         }
         else {
             alert("Congratulatoin You Have Completed All Tasks")
@@ -140,7 +140,7 @@ document.getElementById('task5-btn')
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
-            alert("updated");
+            alert("Board Successfully updated");
         }
         else {
             alert("Congratulatoin You Have Completed All Tasks")
@@ -169,13 +169,9 @@ document.getElementById('task6-btn')
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
-            alert("updated");
+            alert("Board Successfully updated");
         }
         else {
             alert("Congratulatoin You Have Completed All Tasks")
         }
  })
-//  if (taskNumber == 0){
-//     alert("Congratulaton");
-//  }
-console.log(taskNumber.innerText);
