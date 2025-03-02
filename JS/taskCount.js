@@ -10,8 +10,15 @@ document.getElementById('task1-btn')
         updatedPoint = updatedPoint +1;
         pointSection.innerText = updatedPoint;
 
-        const headinText = document.querySelector("#task1 > h2").innerText;
-        console.log(headinText);
+        let headinText = document.querySelector("#task1 > h2").innerText;
+        let activityBox = document.getElementById("activity-box");
+        newChild = document.createElement("p");
+        const date = new Date();
+        const timeDate = date.toLocaleString('en-US', {hour12: true});
+        newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
+        newChild.classList = "p-3 bg-[#F4F7FF]";
+        activityBox.appendChild(newChild);
+
 
 
         taskCompleteBtn.setAttribute('disabled',true);
@@ -32,6 +39,16 @@ document.getElementById('task2-btn')
         let updatedPoint = parseInt(pointSection.innerText);
         updatedPoint = updatedPoint +1;
         pointSection.innerText = updatedPoint;
+
+        let headinText = document.querySelector("#task2 > h2").innerText;
+        let activityBox = document.getElementById("activity-box");
+        newChild = document.createElement("p");
+        const date = new Date();
+        const timeDate = date.toLocaleString('en-US', {hour12: true});
+        newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
+        newChild.classList = "p-3 bg-[#F4F7FF]";
+        activityBox.appendChild(newChild);
+
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
@@ -51,6 +68,17 @@ document.getElementById('task3-btn')
         let updatedPoint = parseInt(pointSection.innerText);
         updatedPoint = updatedPoint +1;
         pointSection.innerText = updatedPoint;
+
+
+        let headinText = document.querySelector("#task3 > h2").innerText;
+        let activityBox = document.getElementById("activity-box");
+        newChild = document.createElement("p");
+        const date = new Date();
+        const timeDate = date.toLocaleString('en-US', {hour12: true});
+        newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
+        newChild.classList = "p-3 bg-[#F4F7FF]";
+        activityBox.appendChild(newChild);
+
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
@@ -70,6 +98,16 @@ document.getElementById('task4-btn')
         let updatedPoint = parseInt(pointSection.innerText);
         updatedPoint = updatedPoint +1;
         pointSection.innerText = updatedPoint;
+
+        let headinText = document.querySelector("#task4 > h2").innerText;
+        let activityBox = document.getElementById("activity-box");
+        newChild = document.createElement("p");
+        const date = new Date();
+        const timeDate = date.toLocaleString('en-US', {hour12: true});
+        newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
+        newChild.classList = "p-3 bg-[#F4F7FF]";
+        activityBox.appendChild(newChild);
+
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
@@ -89,6 +127,16 @@ document.getElementById('task5-btn')
         let updatedPoint = parseInt(pointSection.innerText);
         updatedPoint = updatedPoint +1;
         pointSection.innerText = updatedPoint;
+
+        let headinText = document.querySelector("#task5 > h2").innerText;
+        let activityBox = document.getElementById("activity-box");
+        newChild = document.createElement("p");
+        const date = new Date();
+        const timeDate = date.toLocaleString('en-US', {hour12: true});
+        newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
+        newChild.classList = "p-3 bg-[#F4F7FF]";
+        activityBox.appendChild(newChild);
+
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
@@ -108,6 +156,16 @@ document.getElementById('task6-btn')
         let updatedPoint = parseInt(pointSection.innerText);
         updatedPoint = updatedPoint +1;
         pointSection.innerText = updatedPoint;
+
+        let headinText = document.querySelector("#task6 > h2").innerText;
+        let activityBox = document.getElementById("activity-box");
+        newChild = document.createElement("p");
+        const date = new Date();
+        const timeDate = date.toLocaleString('en-US', {hour12: true});
+        newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
+        newChild.classList = "p-3 bg-[#F4F7FF]";
+        activityBox.appendChild(newChild);
+
         taskCompleteBtn.setAttribute('disabled',true);
         if (tasknum > 0){
             
