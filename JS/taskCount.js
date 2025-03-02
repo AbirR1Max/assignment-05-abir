@@ -160,7 +160,7 @@ document.getElementById('task6-btn')
         let headinText = document.querySelector("#task6 > h2").innerText;
         let activityBox = document.getElementById("activity-box");
         newChild = document.createElement("p");
-        const date = new Date();
+        const date = new Date(); 
         const timeDate = date.toLocaleString('en-US', {hour12: true});
         newChild.innerText ='You have Complete the The Task '+ headinText + ' at ' + timeDate;
         newChild.classList = "p-3 bg-[#F4F7FF]";
