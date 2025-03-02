@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <div class="collapse bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-1" checked="checked" />
+        <div class="collapse-title font-semibold">What are the different ways to select an element in the DOM?</div>
+        <div class="collapse-content text-sm"><p>
+            In JavaScript, there are several ways to select elements in the DOM: <br>
+                getElementById(): Selects an element with a specific id. <br>
+            
+                getElementsByClassName(): Selects all elements with a specific class name. <br>
+            
+                getElementsByTagName(): Selects all elements with a specific tag name. <br>
+            
+                querySelector(): Selects the first element that matches a given CSS selector. <br>
+            
+                querySelectorAll(): Selects all elements that match a given CSS selector. <br>
+            
+                getAttribute(): If you need to select an element by a specific attribute. <br>
+        </p></div>
+      </div>
+      <div class="collapse bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title font-semibold">What is the difference between innerHTML, innerText, and textContent?</div>
+        <div class="collapse-content text-sm">innerHTML: Gets or sets the HTML content inside an element (including HTML tags). <br>
+            Allows HTML markup. <br>
+            Can be a security risk if not properly sanitized. <br>
+            
+            innerText: Gets or sets the visible text content of an element, excluding HTML tags. <br>
+            The result may be influenced by CSS. <br>
+            It represents the text content as it's displayed to the user. <br>
+            
+            textContent: Gets or sets the text content of an element, including hidden text. <br>
+            Unlike innerText, it does not consider CSS styling. <br>
+            Faster than innerText because it doesn't trigger reflow or layout updates.</div>
+      </div>
+      <div class="collapse bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title font-semibold">What is event bubbling in the DOM?</div>
+        <div class="collapse-content text-sm">Event bubbling is the process by which an event, after being triggered on an element, propagates (or "bubbles") up to its parent elements in the DOM tree. This means the event is first captured by the target element and then passed up to its ancestors, triggering the same event on each parent element. <br> 
+            Example: If you click a button inside a div, the click event bubbles from the button up to the div, then the body, and finally to the document.
+            To prevent event bubbling, you can use event.stopPropagation().
+        </div>
+      </div>
+      <div class="collapse bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title font-semibold">How do you create, add, and remove elements using JavaScript?</div>
+        <div class="collapse-content text-sm">Creating an element: Use document.createElement() to create an element.
+            Adding an element: Use appendChild() or insertBefore() to add an element to the DOM.
+            Removing an element: Use removeChild() or remove() to remove an element.</div>
+      </div>
+</body>
+</html>
+
+
